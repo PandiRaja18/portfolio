@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code2, Gamepad2, Award, Github, Linkedin, Mail, ExternalLink, Brain, Binary, Cpu } from 'lucide-react';
+import { Code2, Gamepad2, Award, Github, Linkedin, Mail, ExternalLink, Brain, Binary, Cpu, Code } from 'lucide-react';
 
 interface Project {
   title: string;
@@ -18,39 +18,73 @@ interface Certification {
 function App() {
   const projects: Project[] = [
     {
-      title: "Neural Network Visualizer",
-      description: "Interactive deep learning architecture visualization tool with real-time training insights",
-      tech: ["Python", "TensorFlow", "React", "WebGL"],
-      link: "https://github.com"
+      title: "Tedo Bank – Multi-Currency ATM App",
+      description: "A conceptual ATM application allowing users to deposit their native currency and receive the equivalent in Indian Rupees—or the other way around. This project simulates the process with currency conversion logic, aiming to simplify and secure(with TFA) transactions for international travelers without needing to visit a bank physically.",
+      tech: ["Java", "Tomcat", "JFrame", "OOPS"],
+      link: "https://github.com/PandiRaja18/Tedo-bank"
     },
     {
-      title: "AI Ethics Framework",
-      description: "Comprehensive framework for ethical AI development with automated compliance checking",
-      tech: ["Java", "Spring Boot", "Natural Language Processing"],
-      link: "https://github.com"
+      title: "Nivarsha - Ayurvedic Diet Tracker & Planner",
+      description: "Nivarsha is a personalized diet planning application based on Ayurvedic principles. The app includes tracking features for daily intake, meal reminders, and seasonal food insights to promote a balanced lifestyle",
+      tech: ["Java", "Flutter", "CNN", "Deep learning", "Firebase","Tensorflow"],
+      link: "https://github.com/PandiRaja18/Nivarsha"
+    },
+    {
+      title: "Face Mask Detection System",
+      description: "A proof-of-concept project built in a Jupyter Notebook using deep learning and OpenCV. It detects whether individuals are wearing face masks in real-time, ideal for demonstration and research purposes in public health monitoring.",
+      tech: ["Python", "TensorFlow", "Image recognition", "CNN"],
+      link: "https://github.com/PandiRaja18/ML-Projects/"
+    },
+    {
+      title: "Facial Recognition & Detection with Haar Cascades",
+      description: "Implemented face detection and recognition using Haar Cascade Classifiers in a notebook environment. The project explores facial feature extraction and matching through traditional computer vision techniques for basic identity verification.",
+      tech: ["Python", "TensorFlow", "Image recognition", "CNN"],
+      link: "https://github.com/PandiRaja18/ML-Projects/"
     }
   ];
 
   const certifications: Certification[] = [
     {
-      name: "Advanced Deep Learning Specialization",
-      issuer: "DeepMind",
-      date: "2024",
-      link: "https://cert.example.com"
+      name: "TensorFlow Developer Professional certificate",
+      issuer: "Coursera",
+      date: "2021",
+      link: "https://coursera.org/share/e29bb9c2f8af240560262823f964bb87?trk=public_profile_see-credential"
     },
     {
-      name: "Quantum Machine Learning",
-      issuer: "IBM Quantum",
-      date: "2023",
-      link: "https://cert.example.com"
+      name: "Problem solving and Data Structure using python",
+      issuer: "E-Box",
+      date: "2021",
+      link: "https://app.e-box.co.in/course/previewCourseCompletionCertificate?code=84caf526-6635-4e01-a2d1-3c08cb48e5bb&trk=public_profile_see-credential"
+    },
+    {
+      name: "Problem solving",
+      issuer: "HackerRank",
+      date: "2021",
+      link: "https://www.hackerrank.com/certificates/a71ce43d71dd?trk=public_profile_see-credential"
+    },
+    {
+      name: "Security and Privacy for Big Data",
+      issuer: "EIT Digital",
+      date: "2021",
+      link: "https://www.coursera.org/account/accomplishments/records/VZ34BQ52N874?trk=public_profile_see-credential"
+    },
+    {
+      name: "Algorithm specialization",
+      issuer: "Coursera",
+      date: "2022 - 2023",
+      link: "https://www.coursera.org/account/accomplishments/verify/24PM2XU4K3T6?trk=public_profile_see-credential"
     }
   ];
 
   const expertise = [
     "Mathematical Optimization",
     "Deep Learning Architecture",
-    "Java Ecosystem",
-    "AI Ethics & Governance"
+    "AI Ethics & Governance",
+    "OOPS",
+    "Java",
+    "Tensorflow",
+    "Pytorch",
+    "CPP"
   ];
 
   return (
@@ -70,25 +104,31 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
           <div className="relative z-10">
             <h1 className="text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-300 via-purple-400 to-violet-500 animate-text-shimmer">
-              Michael
+              Pandi Raja P
             </h1>
             <div className="mt-4 space-y-2">
               <p className="text-2xl font-semibold text-purple-200 drop-shadow-lg">
                 ML Engineer & Mathematical Virtuoso
               </p>
               <p className="text-lg text-purple-300/90">
-                AI Ethicist | Java Ecosystem Expert | Deep Learning Architect | Tech Decoder
+                AI Ethicist | Backend Sorcerer (Java Edition) | Deep Learning Architect | Tech Decoder
               </p>
             </div>
             <div className="flex gap-4 mt-8">
-              <a href="https://github.com" className="text-fuchsia-400 hover:text-purple-400 transition-colors">
+              <a href="https://github.com/PandiRaja18" className="text-fuchsia-400 hover:text-purple-400 transition-colors">
                 <Github size={24} />
               </a>
-              <a href="https://linkedin.com" className="text-fuchsia-400 hover:text-purple-400 transition-colors">
+              <a href="https://in.linkedin.com/in/pandi-raja-p-043b641a3" className="text-fuchsia-400 hover:text-purple-400 transition-colors">
                 <Linkedin size={24} />
               </a>
-              <a href="mailto:contact@example.com" className="text-fuchsia-400 hover:text-purple-400 transition-colors">
+              <a href="mailto:nwraja01@gmail.com" className="text-fuchsia-400 hover:text-purple-400 transition-colors">
                 <Mail size={24} />
+              </a>
+              <a href="https://www.hackerrank.com/profile/nwraja01" className="text-fuchsia-400 hover:text-purple-400 transition-colors">
+                <Code size={24} />
+              </a>
+              <a href="https://leetcode.com/u/nwraja01/" className="text-fuchsia-400 hover:text-purple-400 transition-colors">
+                <Code size={24} />
               </a>
             </div>
           </div>
