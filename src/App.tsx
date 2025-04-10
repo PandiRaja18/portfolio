@@ -141,7 +141,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="flex items-center gap-3 mb-8">
             <Brain className="text-fuchsia-400" size={28} />
-            <h2 className="text-3xl font-bold text-fuchsia-400">AI Projects</h2>
+            <h2 className="text-3xl font-bold text-fuchsia-400">Projects</h2>
           </div>
           <div className="grid md:grid-cols-2 gap-6">
             {projects.map((project, index) => (
