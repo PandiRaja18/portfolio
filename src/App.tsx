@@ -30,6 +30,12 @@ function App() {
       link: "https://github.com/PandiRaja18/Nivarsha"
     },
     {
+      title: "VulTra",
+      description: "The VulTra is a VScode extension designed to detect potential vulnerabilities in Java code automatically. This tool assists developers by providing real-time vulnerability analysis,code violation, and automatic fixes via AI-powered suggestions.",
+      tech: ["Typescript", "Huggingface", "ONNX", "NLP", "Semantic analysis","Java"],
+      link: "https://github.com/PandiRaja18/VulTra/"
+    },
+    {
       title: "Face Mask Detection System",
       description: "A proof-of-concept project built in a Jupyter Notebook using deep learning and OpenCV. It detects whether individuals are wearing face masks in real-time, ideal for demonstration and research purposes in public health monitoring.",
       tech: ["Python", "TensorFlow", "Image recognition", "CNN"],
