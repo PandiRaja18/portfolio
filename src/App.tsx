@@ -36,6 +36,12 @@ function App() {
       link: "https://github.com/PandiRaja18/VulTra/"
     },
     {
+      title: "Model Release Tracker",
+      description: "This project provides a responsive web app for tracking machine learning model releases, milestones, and their associated metrics. Users can easily track different machine learning modules, input various model details, and visualize key performance indicators (KPIs) across versions.",
+      tech: ["Typescript", "Node", "React JS"],
+      link: "https://github.com/PandiRaja18/ModelTracker"
+    },
+    {
       title: "Face Mask Detection System",
       description: "A proof-of-concept project built in a Jupyter Notebook using deep learning and OpenCV. It detects whether individuals are wearing face masks in real-time, ideal for demonstration and research purposes in public health monitoring.",
       tech: ["Python", "TensorFlow", "Image recognition", "CNN"],
