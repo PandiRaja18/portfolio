@@ -18,6 +18,12 @@ interface Certification {
 function App() {
   const projects: Project[] = [
     {
+      title: "VulTra",
+      description: "The VulTra is a VScode extension designed to detect potential vulnerabilities in Java code automatically. This tool assists developers by providing real-time vulnerability analysis,code violation, and automatic fixes via AI-powered suggestions.",
+      tech: ["Typescript", "Huggingface", "ONNX", "NLP", "Semantic analysis","Java"],
+      link: "https://github.com/PandiRaja18/VulTra/"
+    },
+    {
       title: "Tedo Bank – Multi-Currency ATM App",
       description: "A conceptual ATM application allowing users to deposit their native currency and receive the equivalent in Indian Rupees—or the other way around. This project simulates the process with currency conversion logic, aiming to simplify and secure(with TFA) transactions for international travelers without needing to visit a bank physically.",
       tech: ["Java", "Tomcat", "JFrame", "OOPS"],
@@ -30,10 +36,10 @@ function App() {
       link: "https://github.com/PandiRaja18/Nivarsha"
     },
     {
-      title: "VulTra",
-      description: "The VulTra is a VScode extension designed to detect potential vulnerabilities in Java code automatically. This tool assists developers by providing real-time vulnerability analysis,code violation, and automatic fixes via AI-powered suggestions.",
-      tech: ["Typescript", "Huggingface", "ONNX", "NLP", "Semantic analysis","Java"],
-      link: "https://github.com/PandiRaja18/VulTra/"
+      title: "Secure-File-Sharing",
+      description: "A secure file-sharing application using React, Redux, Django, and Google Authenticator for 2FA authentication. This project ensures that file transfers are safe, authenticated, and easy to use.",
+      tech: ["Django REST Framework (DRF)", "SQLite", "Google Authenticator (OTP-based authentication)"],
+      link: "https://github.com/smalinidevi/Secure-File-Sharing"
     },
     {
       title: "Model Release Tracker",
